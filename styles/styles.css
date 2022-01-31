@@ -1,5 +1,5 @@
 body{
-    background-image: url("/media/fondo_azul.svg");
+    background-image: url('/media/fondo_azul.svg?inline');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
