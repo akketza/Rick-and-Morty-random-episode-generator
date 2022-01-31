@@ -1,0 +1,105 @@
+body{
+    background-image: url("/media/fondo_azul.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: sans-serif;
+}
+.seccion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4vh;
+}
+button{
+    cursor: pointer;
+    background-color: white;
+    border-style: none;
+    border-radius: 5px;
+    width: 10rem;
+    font-weight: 400;
+    font-size: x-large;
+    color: rgba(0,0,0,.9);
+    transition-duration: 0.4s;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+#contenedorID{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 1rem;
+}
+#contenedorID p{
+    color: white;
+    font-size: large;
+}
+#animacion{
+    margin-top: 1rem;
+}
+#animacion h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    border-radius: 1px;
+    color: white;
+    line-height: 1.5;
+
+    letter-spacing: -.05em;
+    min-width: 30rem;
+    font-size: 6rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.mainDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    margin-right: 1rem;
+}
+.logo svg{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    color: white;
+}
+.logo img{
+    display: flex;
+    margin-top: 1rem;
+    width: 10rem;
+}
+#personajes{
+    margin-left: 0.625rem;
+    margin-top: 1rem;
+}
+#personajes img{
+    width: 4rem;
+    margin: 0.5em;
+    border-radius: 3px;
+}
+h3{
+    color: white;
+    font-size: 2rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h2{
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 3rem;
+}
